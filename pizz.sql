@@ -73,5 +73,3 @@ preco float(16,2),
 FOREIGN KEY(pedido_id) REFERENCES PEDIDOS (pedido_id),
 FOREIGN KEY(pizza_id) REFERENCES PIZZAS (pizza_id)
 )
-
-
